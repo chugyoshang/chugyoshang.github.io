@@ -14,7 +14,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-archives # 카테고리 및 태그 아카이브 
 
+jekyll-archives:
+  enabled:
+    - categories
+  layouts:
+    category: category # 카테고리별 레이아웃 지정
+  permalinks:
+    category: /categories/:name/
+    
 # Optimize Jekyll
 exclude:
   - .editorconfig
