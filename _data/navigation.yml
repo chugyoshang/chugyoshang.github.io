@@ -2,3 +2,17 @@
   url: /
 - title: About
   url: /about/
+- title: Categories
+  url: /categories/
+- title: 소개
+  url: /category/소개/
+- title: sql
+  url: /category/sql/
+- title: R
+  url: /category/R/
+- title: python
+  url: /category/python/
+- title: python_ml
+  url: /category/python_ml/
+- title: biomedical
+  url: /category/biomedical/
